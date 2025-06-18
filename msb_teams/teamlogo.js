@@ -6,8 +6,10 @@ LoadEverything().then(() => {
 
     const path = window.location.pathname;
     const page = path.split("/").pop();
-    const teamNum = (page === "teamlogo2.html") ? 2 : 1;
-
+    
+    var teamNum = 1
+    if (page == "team2logo.html") {teamNum = 2}
+    
     const logoContainer = document.getElementById("team-logo-container");
     logoContainer.innerHTML = "";  // Clear previous logo
 
