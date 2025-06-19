@@ -1,0 +1,93 @@
+body {
+  font-family: var(--font);
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  margin: 0;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#live-container {
+  display: grid;
+  grid-template-rows: 10em 15em 15em 10em;
+  row-gap: 0.5em;
+  max-width: 100em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2.5em;
+  border-radius: 2.5em;
+}
+
+.row-username {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 600%;
+  color: white;
+}
+
+.username-home {
+  text-align: left;
+}
+
+.username-away {
+  text-align: right;
+}
+
+.row-score-logos {
+  display: grid;
+  grid-template-columns: 15em 15em 40em 15em 15em;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.score {
+  font-size: 12.5em;
+  text-align: center;
+  color: white;
+}
+
+.inning {
+  text-align: center;
+  font-size: 600%;
+  color: white;
+}
+
+.row-situation {
+  display: grid;
+  grid-template-columns: 15em 15em 40em 15em 15em;
+  align-items: center;
+}
+
+.offDef img {
+  width: 10em;
+  height: auto;
+}
+
+.character img {
+  width: 10em;
+  height: auto;
+}
+
+.bases-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bases img {
+  width: 10em;
+  height: auto;
+}
+
+.count {
+  color: white;
+  font-size: 6em;
+}
