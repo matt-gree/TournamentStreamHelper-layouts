@@ -17,8 +17,8 @@ body {
   top: 16px;
   left: 16px;
   display: grid;
-  column-gap: 5px;
-  row-gap: 5px;
+  column-gap: 4px;
+  row-gap: 4px;
   grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
@@ -32,8 +32,8 @@ body {
 }
 
 .captain-container img {
-  width: 100%; 
-  height: 100%; 
+  width: 95%; 
+  height: 95%; 
   object-fit: contain;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .character-container img {
-  width: 100%; 
-  height: 100%; 
+  width: 95%; 
+  height: 95%; 
   object-fit: contain;
 }
